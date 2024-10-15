@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@layouts/Default.astro';
+import BlogList from '@components/novedades/NovedadesList.astro';
+
+const posts = await getCollection('blog').then((collection) =>
+  collection.reverse()
+);
+---
+
+<Layout
+  title='Novedades'
+  description='Pagina en donde se publicaran todas las novedades'
+  pageTitle='LLLIT Spot'
+>
+  <main class='bg-green p-6'>
+    <BlogList posts={posts} />
+  </main>
+</Layout>
