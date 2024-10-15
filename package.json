@@ -4,11 +4,11 @@
   "type": "module",
   "packageManager": "pnpm@8.6.0",
   "author": {
-    "name": "Elian Van Cutsem",
-    "email": "hello@elian.codes",
-    "url": "https://www.elian.codes/"
+    "name": "Matias Perez Nauto",
+    "email": "lit.io30303@gmail.com",
+    "url": "https://github.com/lllit"
   },
-  "homepage": "https://brutal.elian.codes",
+  "homepage": "https://github.com/lllit",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
